@@ -1,0 +1,88 @@
+:root {
+    --main-color: rgb(35, 33, 111);
+    --main-text-color: rgb(237, 237, 240);
+    --button-color: rgb(255, 255, 255);
+    --button-text-color: rgb(35, 33, 111);
+    --background-color:rgb(231, 232, 240);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* TITLES */
+h1,
+.title1 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+h2, h3, h4, h5, h6, .title2, .title3, .title4, .title5, .title6 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--main-text-color);
+}
+
+.unput-window {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    padding: 20px 20%;
+}
+
+.create-post {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 50px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+
+[class*="input"] {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.cteate-post__label {
+    margin-bottom: 5px;
+}
+
+.cteate-post__select {
+    display: block;
+    padding: 7px 30px;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.cteate-post__input-file {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+}
+
+.cteate-post__but {
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: none;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px;
+}
