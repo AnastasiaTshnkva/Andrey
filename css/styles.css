@@ -19,9 +19,12 @@
 
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--main-text-color);
+    line-height: 20px;
 }
+
+
 
 .header {
     background-color: var(--main-color);

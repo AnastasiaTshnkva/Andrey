@@ -1,0 +1,63 @@
+:root {
+    --main-color: rgb(35, 33, 111);
+    --main-text-color: rgb(237, 237, 240);
+    --button-color: rgb(255, 255, 255);
+    --button-text-color: rgb(35, 33, 111);
+    --background-color:rgb(197, 200, 221);
+    --main-page-text-color:rgb(35, 33, 111);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: var(--main-text-color);
+    line-height: 20px;
+    margin: 0;
+}
+
+/* TITLES */
+h1,
+.title1 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+h2,
+.title2 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+h3, h4, h5, h6, .title3, .title4, .title5, .title6 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.main-page {
+    color: var(--main-page-text-color);
+    background-image: linear-gradient(rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0.7)),
+    url(../image/dark__blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    padding: 20px 70px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list__link {
+    text-decoration: none;
+}
